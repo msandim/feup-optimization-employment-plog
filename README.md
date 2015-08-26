@@ -16,27 +16,10 @@ The number of employees working in their lunch hour or working extra hours are l
 
 **An optimal solution to this problem is the employee configuration that costs less (in terms of salaries to pay) to the company.**
 
-## 2. Dataset
+## 2. Command line interface
 
-The dataset involved in this project (including training and testing sets) is described and available for download [here](https://archive.ics.uci.edu/ml/datasets/Parkinson+Speech+Dataset+with++Multiple+Types+of+Sound+Recordings) and includes several features from patient voice recordings (vowels, numbers, short sentences and words). The "UPDRS" feature was ignored in this analysis.
 
-## 3. Learning algorithm
 
-In order to find the connection weights that minimize the model's cost function, the Backpropagation algorithm was used. The minimization step is based on the Gradient Descent algorithm, with an added "momentum" term that avoids imprisonments in local minimums of the cost function (which may not be convex).
+![gui](https://github.com/msandim/optimization-employment-plog/raw/master/resources/solution.png)
 
-More information on this algorithm is available here:
-> Fausett, Laurene. Fundamentals of neural networks: architectures, algorithms, and applications. Prentice-Hall, Inc., 1994.
-
-## 4. Command line interface
-
-![gui](https://github.com/msandim/neural-net-iart/blob/master/resources/gui.png?raw=true)
-
-The interface allows the user to modify the:
-* Number of neurons on each hidden layer;
-* Learning rate and momentum values;
-* Train and test data paths;
-* Medium Squared Error value to achieve convergence in the algorithm;
-* Maximum number of iterations;
-* Types of recordings present on the train and test phases.
-
-On the right panel, the MSE for the training set on each iteration is showed, along with the number of well-classified cases. After the training process is concluded, the same information is reported for the test set.
+After launching the configuration, information regarding the schedule of each employee is showed (textually and graphically), along with the timetable.

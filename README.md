@@ -1,4 +1,4 @@
-# Employee hiring optimization solution
+# Employee hiring optimization solution 
 
 This repository contains a solution to an employee hiring optimization problem using Constraint Logic Programming, developed on the "Logic Programming" course at FEUP. The development plataform used was Sicstus Prolog 4.3.0, along with the "clpfd" library for Constraint Logic Programming in Prolog.
 

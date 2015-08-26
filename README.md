@@ -12,7 +12,7 @@ The problem being addressed in this solution relates to employee hiring: an imag
 * Fulltime employees: work all day, with 1 free luch hour. May work on their lunch hour for a bonus;
 * Part-time employees: work a defined number of hours, with no lunch hour May work an extra hour for a bonus.
 
-The number of employees working in their lunch hour or working extra hours are limited by the Workers Union. The number of part-time employees is limited by number and ratio when compared to the number of fulltime employees.
+The number of employees working in their lunch hour or working extra hours are limited by the Workers Union. The number of part-time employees is also limited by number and ratio when compared to the number of fulltime employees.
 
 **An optimal solution to this problem is the employee configuration that costs less (in terms of salaries to pay) to the company.**
 

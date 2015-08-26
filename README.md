@@ -16,9 +16,36 @@ The number of employees working in their lunch hour or working extra hours are l
 
 **An optimal solution to this problem is the employee configuration that costs less (in terms of salaries to pay) to the company.**
 
-## 2. Command line interface
+## 2. Problem definition in Prolog
 
+The files "probEx.pl", "probMedium.pl", "probBig.pl" and "probBig2.pl" contrain instances of the problem defined in Prolog.
 
+The predicates that define an instance of a problem are defined as follows:
+
+| Predicates                 | Meaning                                                                        |
+|----------------------------|--------------------------------------------------------------------------------|
+| input_slots                | Number of employees needed on each work hour                                   |
+| input_startWork            | First working hour                                                             |
+| input_endWork              | Last working hour                                                              |
+| input_maxExtraWorkers      | Maximum number of workers working in their lunch hour or doing an extra hour   |
+| input_fullSalaryPerHour    | Fulltime worker salary (per hour)                                              |
+| input_fullBonus            | Fulltime bonus for working in lunch hour                                       |
+| input_lunchHourList        | Lunch hours                                                                    |
+| input_partialWorkHours     | Number of work hours for a part-time worker                                    |
+| input_partialMaxWorkers    | Maximum number of part-time workers                                            |
+| input_partialWorkersRatio  | Maximum percentage ratio of part-time workers compared to the fulltime workers |
+| input_partialSalaryPerHour | Part-time worker salary (per hour)                                             |
+| input_partialBonus         | Part-time bonus for working an extra hour                                      |
+
+In order to run an instance of a problem, change the following instrution in "main.pl" - line 4:
+```prolog
+:- consult(probEx).
+```
+replacing "probEx" with the desired file.
+
+Then load main.pl and type ```prolog schedule.```
+
+## 3. Command line interface
 
 ![gui](https://github.com/msandim/optimization-employment-plog/raw/master/resources/solution.png)
 

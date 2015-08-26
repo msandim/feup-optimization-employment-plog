@@ -43,7 +43,7 @@ In order to run an instance of a problem, change the following instrution in "ma
 ```
 replacing "probEx" with the desired file.
 
-Then load main.pl and type ```prolog schedule.```
+Then load main.pl and call predicate "schedule" (type `schedule.`).
 
 ## 3. Command line interface
 

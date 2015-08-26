@@ -9,12 +9,12 @@ For further information on the topics of this project, check the [report](https:
 ## 1. Problem description
 
 The problem being addressed in this solution relates to employee hiring: an imaginary company needs several employees during a work day, which can be of two types:
-* Fulltime employees: work all day, with 1 free luch hour. May work on their lunch hour for a bonus;
-* Part-time employees: work a defined number of hours, with no lunch hour May work an extra hour for a bonus.
+* Fulltime employees: work all day, with 1 free luch hour. May work on their lunch hour for a salary bonus;
+* Part-time employees: work a defined number of hours, with no lunch hour. May work an extra hour for a salary bonus.
 
 The number of employees working in their lunch hour or working extra hours are limited by the Workers Union. The number of part-time employees is also limited by number and ratio when compared to the number of fulltime employees.
 
-**An optimal solution to this problem is the employee configuration that costs less (in terms of salaries to pay) to the company.**
+**An optimal solution to this problem is the employee configuration that costs less (in terms of salaries to pay) to the company, while insuring the number of workers needed on each hour.**
 
 ## 2. Problem definition in Prolog
 
